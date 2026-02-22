@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[name and prices match with selected product: true]]>
+    </line>
+    <line>
+      <![CDATA[Tc3 Passed]]>
+    </line>
+    <line>
+      <![CDATA[checkAddedProduct has been passed]]>
+    </line>
+    <line>
+      <![CDATA[The product has been added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Tc1 Pssed]]>
+    </line>
+    <line>
+      <![CDATA[clickOnAddToCart has been passed]]>
+    </line>
+    <line>
+      <![CDATA[Tc2 passed]]>
+    </line>
+    <line>
+      <![CDATA[verifyCartProductWithSelectedProduct has been passed]]>
+    </line>
+    <line>
+      <![CDATA[name and prices match with selected product: true]]>
+    </line>
+    <line>
+      <![CDATA[Tc4 passed]]>
+    </line>
+    <line>
+      <![CDATA[verifyProductAfterLogout has been passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-22T18:20:15 IST" name="Default suite" finished-at="2026-02-22T18:21:28 IST" duration-ms="72274">
+    <groups>
+      <group name="regression">
+        <method signature="CartModule.clickOnAddToCart()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" name="clickOnAddToCart" class="com.tricenties.CartModule"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2026-02-22T18:20:15 IST" name="Default test" finished-at="2026-02-22T18:21:28 IST" duration-ms="72274">
+      <class name="com.tricenties.CartModule">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:14 IST" name="setUp" finished-at="2026-02-22T18:20:15 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:15 IST" name="openBrowser" finished-at="2026-02-22T18:20:18 IST" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="checkAddedProduct()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:18 IST" name="checkAddedProduct" finished-at="2026-02-22T18:20:33 IST" duration-ms="14825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[name and prices match with selected product: true]]>
+            </line>
+            <line>
+              <![CDATA[Tc3 Passed]]>
+            </line>
+            <line>
+              <![CDATA[checkAddedProduct has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkAddedProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:33 IST" name="closeBrowser" finished-at="2026-02-22T18:20:33 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:33 IST" name="openBrowser" finished-at="2026-02-22T18:20:36 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="clickOnAddToCart()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:36 IST" name="clickOnAddToCart" finished-at="2026-02-22T18:20:53 IST" duration-ms="17210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The product has been added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Tc1 Pssed]]>
+            </line>
+            <line>
+              <![CDATA[clickOnAddToCart has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnAddToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:53 IST" name="closeBrowser" finished-at="2026-02-22T18:20:53 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:53 IST" name="openBrowser" finished-at="2026-02-22T18:20:55 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyCartProductWithSelectedProduct()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:20:55 IST" name="verifyCartProductWithSelectedProduct" finished-at="2026-02-22T18:21:09 IST" duration-ms="14257" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Tc2 passed]]>
+            </line>
+            <line>
+              <![CDATA[verifyCartProductWithSelectedProduct has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartProductWithSelectedProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:21:09 IST" name="closeBrowser" finished-at="2026-02-22T18:21:10 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:21:10 IST" name="openBrowser" finished-at="2026-02-22T18:21:12 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyProductAfterLogout()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:21:12 IST" name="verifyProductAfterLogout" finished-at="2026-02-22T18:21:27 IST" duration-ms="15801" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[name and prices match with selected product: true]]>
+            </line>
+            <line>
+              <![CDATA[Tc4 passed]]>
+            </line>
+            <line>
+              <![CDATA[verifyProductAfterLogout has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAfterLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:21:27 IST" name="closeBrowser" finished-at="2026-02-22T18:21:28 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeSetUp()[pri:0, instance:com.tricenties.CartModule@b2c9a9c]" started-at="2026-02-22T18:21:28 IST" name="closeSetUp" finished-at="2026-02-22T18:21:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUp -->
+      </class> <!-- com.tricenties.CartModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

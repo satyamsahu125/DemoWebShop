@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 2 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_success(Female, Anu, Sharma, anu_101212@test.com, Test@123, Test@123)">register_success(Female, Anu, Sharma, anu_101212@test.com, Test@123, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_success(Male, Ravi, Kumar, ravi_1023232@test.com, Test@123, Test@123)">register_success(Male, Ravi, Kumar, ravi_1023232@test.com, Test@123, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.WishListTest" class="method navigator-link" hash-for-method="addToWishList">addToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.CartTest" class="method navigator-link" hash-for-method="checkAddedProduct">checkAddedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.WishListTest" class="method navigator-link" hash-for-method="checkAddedProduct">checkAddedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.CartTest" class="method navigator-link" hash-for-method="clickOnAddToCart">clickOnAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.ContactUsTest" class="method navigator-link" hash-for-method="enquiry">enquiry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.LoginTest" class="method navigator-link" hash-for-method="loginSuccess(anu_101212@test.com, Test@123)">loginSuccess(anu_101212@test.com, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.LoginTest" class="method navigator-link" hash-for-method="loginSuccess(ravi_1023232@test.com, Test@123)">loginSuccess(ravi_1023232@test.com, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.LoginTest" class="method navigator-link" hash-for-method="loginWithInvalidCred(sdasd, Test@21323)">loginWithInvalidCred(sdasd, Test@21323)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.LoginTest" class="method navigator-link" hash-for-method="loginWithInvalidCred(, )">loginWithInvalidCred(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.LoginTest" class="method navigator-link" hash-for-method="loginWithInvalidCred(satyam@gmail.com, )">loginWithInvalidCred(satyam@gmail.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_validation(Male, Arjun, Das, arjun@test.com, Test@123, , Password is required.)">register_validation(Male, Arjun, Das, arjun@test.com, Test@123, , Password is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_validation(Female, Neha, Roy, neha@test.com, , 123.0, Password is required.)">register_validation(Female, Neha, Roy, neha@test.com, , 123.0, Password is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_validation(Male, Arjun, Das, arjun@test.com, Test@124, Test@4234234, The password and confirmation password do ...)">register_validation(Male, Arjun, Das, arjun@test.com, Test@124, Test@4234234, The password and confirmation password do ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_validation(Female, Riya, , riya@test.com, Test@123, Test@123, Last name is required.)">register_validation(Female, Riya, , riya@test.com, Test@123, Test@123, Last name is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_validation(Male, , Shah, karan@test.com, Test@123, Test@123, First name is required.)">register_validation(Male, , Shah, karan@test.com, Test@123, Test@123, First name is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.RegisterTest" class="method navigator-link" hash-for-method="register_validation(Male, Amit, Verma, , Test@123, Test@123, Email is required.)">register_validation(Male, Amit, Verma, , Test@123, Test@123, Email is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.CartTest" class="method navigator-link" hash-for-method="verifyCartProductWithSelectedProduct">verifyCartProductWithSelectedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.CartTest" class="method navigator-link" hash-for-method="verifyProductAfterLogout">verifyProductAfterLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tricenties.ReviewTest" class="method navigator-link" hash-for-method="vrifyReviewProduct">vrifyReviewProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tricenties.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_success(Female, Anu, Sharma, anu_101212@test.com, Test@123, Test@123)">
+                  </a> <!-- register_success(Female, Anu, Sharma, anu_101212@test.com, Test@123, Test@123) -->
+                  <span class="method-name">register_success</span>
+                  <span class="parameters">(Female,Anu,Sharma,anu_101212@test.com,Test@123,Test@123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your registration completed] but found [The specified email already exists]
+	at com.tricenties.RegisterTest.register_success(RegisterTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_success(Male, Ravi, Kumar, ravi_1023232@test.com, Test@123, Test@123)">
+                  </a> <!-- register_success(Male, Ravi, Kumar, ravi_1023232@test.com, Test@123, Test@123) -->
+                  <span class="method-name">register_success</span>
+                  <span class="parameters">(Male,Ravi,Kumar,ravi_1023232@test.com,Test@123,Test@123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your registration completed] but found [The specified email already exists]
+	at com.tricenties.RegisterTest.register_success(RegisterTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tricenties.ReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="vrifyReviewProduct">
+                  </a> <!-- vrifyReviewProduct -->
+                  <span class="method-name">vrifyReviewProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tricenties.WishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishList">
+                  </a> <!-- addToWishList -->
+                  <span class="method-name">addToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAddedProduct">
+                  </a> <!-- checkAddedProduct -->
+                  <span class="method-name">checkAddedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tricenties.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess(anu_101212@test.com, Test@123)">
+                  </a> <!-- loginSuccess(anu_101212@test.com, Test@123) -->
+                  <span class="method-name">loginSuccess</span>
+                  <span class="parameters">(anu_101212@test.com,Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess(ravi_1023232@test.com, Test@123)">
+                  </a> <!-- loginSuccess(ravi_1023232@test.com, Test@123) -->
+                  <span class="method-name">loginSuccess</span>
+                  <span class="parameters">(ravi_1023232@test.com,Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidCred(sdasd, Test@21323)">
+                  </a> <!-- loginWithInvalidCred(sdasd, Test@21323) -->
+                  <span class="method-name">loginWithInvalidCred</span>
+                  <span class="parameters">(sdasd,Test@21323)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidCred(, )">
+                  </a> <!-- loginWithInvalidCred(, ) -->
+                  <span class="method-name">loginWithInvalidCred</span>
+                  <span class="parameters">(,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidCred(satyam@gmail.com, )">
+                  </a> <!-- loginWithInvalidCred(satyam@gmail.com, ) -->
+                  <span class="method-name">loginWithInvalidCred</span>
+                  <span class="parameters">(satyam@gmail.com,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tricenties.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validation(Male, Arjun, Das, arjun@test.com, Test@123, , Password is required.)">
+                  </a> <!-- register_validation(Male, Arjun, Das, arjun@test.com, Test@123, , Password is required.) -->
+                  <span class="method-name">register_validation</span>
+                  <span class="parameters">(Male,Arjun,Das,arjun@test.com,Test@123,,Password is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validation(Female, Neha, Roy, neha@test.com, , 123.0, Password is required.)">
+                  </a> <!-- register_validation(Female, Neha, Roy, neha@test.com, , 123.0, Password is required.) -->
+                  <span class="method-name">register_validation</span>
+                  <span class="parameters">(Female,Neha,Roy,neha@test.com,,123.0,Password is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validation(Male, Arjun, Das, arjun@test.com, Test@124, Test@4234234, The password and confirmation password do ...)">
+                  </a> <!-- register_validation(Male, Arjun, Das, arjun@test.com, Test@124, Test@4234234, The password and confirmation password do ...) -->
+                  <span class="method-name">register_validation</span>
+                  <span class="parameters">(Male,Arjun,Das,arjun@test.com,Test@124,Test@4234234,The password and confirmation password do not match.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validation(Female, Riya, , riya@test.com, Test@123, Test@123, Last name is required.)">
+                  </a> <!-- register_validation(Female, Riya, , riya@test.com, Test@123, Test@123, Last name is required.) -->
+                  <span class="method-name">register_validation</span>
+                  <span class="parameters">(Female,Riya,,riya@test.com,Test@123,Test@123,Last name is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validation(Male, , Shah, karan@test.com, Test@123, Test@123, First name is required.)">
+                  </a> <!-- register_validation(Male, , Shah, karan@test.com, Test@123, Test@123, First name is required.) -->
+                  <span class="method-name">register_validation</span>
+                  <span class="parameters">(Male,,Shah,karan@test.com,Test@123,Test@123,First name is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_validation(Male, Amit, Verma, , Test@123, Test@123, Email is required.)">
+                  </a> <!-- register_validation(Male, Amit, Verma, , Test@123, Test@123, Email is required.) -->
+                  <span class="method-name">register_validation</span>
+                  <span class="parameters">(Male,Amit,Verma,,Test@123,Test@123,Email is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tricenties.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enquiry">
+                  </a> <!-- enquiry -->
+                  <span class="method-name">enquiry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tricenties.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAddedProduct">
+                  </a> <!-- checkAddedProduct -->
+                  <span class="method-name">checkAddedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddToCart">
+                  </a> <!-- clickOnAddToCart -->
+                  <span class="method-name">clickOnAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartProductWithSelectedProduct">
+                  </a> <!-- verifyCartProductWithSelectedProduct -->
+                  <span class="method-name">verifyCartProductWithSelectedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAfterLogout">
+                  </a> <!-- verifyProductAfterLogout -->
+                  <span class="method-name">verifyProductAfterLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tricenties.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.tricenties.ContactUsTest&quot;/&gt;
+      &lt;class name=&quot;com.tricenties.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.tricenties.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.tricenties.ReviewTest&quot;/&gt;
+      &lt;class name=&quot;com.tricenties.WishListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addToWishList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">enquiry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'vrifyReviewProduct')
+data.setCell(0, 2, 'com.tricenties.ReviewTest')
+data.setCell(0, 3, 36908);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginWithInvalidCred')
+data.setCell(1, 2, 'com.tricenties.LoginTest')
+data.setCell(1, 3, 20622);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyProductAfterLogout')
+data.setCell(2, 2, 'com.tricenties.CartTest')
+data.setCell(2, 3, 18244);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithInvalidCred')
+data.setCell(3, 2, 'com.tricenties.LoginTest')
+data.setCell(3, 3, 17830);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginWithInvalidCred')
+data.setCell(4, 2, 'com.tricenties.LoginTest')
+data.setCell(4, 3, 17249);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addToWishList')
+data.setCell(5, 2, 'com.tricenties.WishListTest')
+data.setCell(5, 3, 15986);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkAddedProduct')
+data.setCell(6, 2, 'com.tricenties.CartTest')
+data.setCell(6, 3, 15382);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkAddedProduct')
+data.setCell(7, 2, 'com.tricenties.WishListTest')
+data.setCell(7, 3, 14141);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCartProductWithSelectedProduct')
+data.setCell(8, 2, 'com.tricenties.CartTest')
+data.setCell(8, 3, 13702);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'register_success')
+data.setCell(9, 2, 'com.tricenties.RegisterTest')
+data.setCell(9, 3, 13460);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickOnAddToCart')
+data.setCell(10, 2, 'com.tricenties.CartTest')
+data.setCell(10, 3, 11918);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'register_success')
+data.setCell(11, 2, 'com.tricenties.RegisterTest')
+data.setCell(11, 3, 10933);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginSuccess')
+data.setCell(12, 2, 'com.tricenties.LoginTest')
+data.setCell(12, 3, 10667);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'enquiry')
+data.setCell(13, 2, 'com.tricenties.ContactUsTest')
+data.setCell(13, 3, 10314);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'register_validation')
+data.setCell(14, 2, 'com.tricenties.RegisterTest')
+data.setCell(14, 3, 9862);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginSuccess')
+data.setCell(15, 2, 'com.tricenties.LoginTest')
+data.setCell(15, 3, 9141);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'register_validation')
+data.setCell(16, 2, 'com.tricenties.RegisterTest')
+data.setCell(16, 3, 9107);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'register_validation')
+data.setCell(17, 2, 'com.tricenties.RegisterTest')
+data.setCell(17, 3, 9082);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'register_validation')
+data.setCell(18, 2, 'com.tricenties.RegisterTest')
+data.setCell(18, 3, 8839);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'register_validation')
+data.setCell(19, 2, 'com.tricenties.RegisterTest')
+data.setCell(19, 3, 8185);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'register_validation')
+data.setCell(20, 2, 'com.tricenties.RegisterTest')
+data.setCell(20, 3, 7831);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register_validation(Male, Arjun, Das, arjun@test.com, Test@123, , Password is required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">register_validation has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithInvalidCred(sdasd, Test@21323)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">loginWithInvalidCred has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register_validation(Female, Neha, Roy, neha@test.com, , 123.0, Password is required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">register_validation has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register_validation(Male, Arjun, Das, arjun@test.com, Test@124, Test@4234234, The password and confirmation password do ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">register_validation has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register_validation(Female, Riya, , riya@test.com, Test@123, Test@123, Last name is required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">register_validation has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithInvalidCred(, )</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">loginWithInvalidCred has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkAddedProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">name and prices match with selected product: true</span>
+                <span class="reporter-method-output">Tc3 Passed</span>
+                <span class="reporter-method-output">checkAddedProduct has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartProductWithSelectedProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Tc2 passed</span>
+                <span class="reporter-method-output">verifyCartProductWithSelectedProduct has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickOnAddToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The product has been added to your shopping cart</span>
+                <span class="reporter-method-output">Tc1 Pssed</span>
+                <span class="reporter-method-output">clickOnAddToCart has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginSuccess(anu_101212@test.com, Test@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">loginSuccess has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductAfterLogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">name and prices match with selected product: true</span>
+                <span class="reporter-method-output">Tc4 passed</span>
+                <span class="reporter-method-output">verifyProductAfterLogout has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addToWishList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The product has been added to your wishlist</span>
+                <span class="reporter-method-output">The wishlist is empty!</span>
+                <span class="reporter-method-output">addToWishList has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enquiry</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">enquiry has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginSuccess(ravi_1023232@test.com, Test@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">loginSuccess has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register_validation(Male, , Shah, karan@test.com, Test@123, Test@123, First name is required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">register_validation has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">vrifyReviewProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">vrifyReviewProduct has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register_validation(Male, Amit, Verma, , Test@123, Test@123, Email is required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">register_validation has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkAddedProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Blue and green Sneaker</span>
+                <span class="reporter-method-output">Blue and green Sneaker</span>
+                <span class="reporter-method-output">The product has been added to your wishlist</span>
+                <span class="reporter-method-output">name and prices match with selected product: true</span>
+                <span class="reporter-method-output">checkAddedProduct has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithInvalidCred(satyam@gmail.com, )</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">loginWithInvalidCred has been passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">11 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tricenties.ReviewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reviewProduct</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">closeSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tricenties.WishListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeSetUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tricenties.RegisterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeSetUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tricenties.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeSetUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tricenties.ContactUsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">closeSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkAddedProduct</span>
+                <span class="method-start">9503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">25215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnAddToCart</span>
+                <span class="method-start">27659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">39577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">39921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartProductWithSelectedProduct</span>
+                <span class="method-start">41853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">55555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">55879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductAfterLogout</span>
+                <span class="method-start">57522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">75766 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">76141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enquiry</span>
+                <span class="method-start">78147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">88463 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">88805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess(anu_101212@test.com, Test@123)</span>
+                <span class="method-start">90539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">101206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">101516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess(ravi_1023232@test.com, Test@123)</span>
+                <span class="method-start">103460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">112601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">112877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidCred(sdasd, Test@21323)</span>
+                <span class="method-start">117081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">134330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">134668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidCred(satyam@gmail.com, )</span>
+                <span class="method-start">136342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">156965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">157323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidCred(, )</span>
+                <span class="method-start">159051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">176881 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">177236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">register_success(Female, Anu, Sharma, anu_101212@test.com, Test@123, Test@123)</span>
+                <span class="method-start">178898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">190030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">191900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">register_success(Male, Ravi, Kumar, ravi_1023232@test.com, Test@123, Test@123)</span>
+                <span class="method-start">194011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">207641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">207926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register_validation(Male, , Shah, karan@test.com, Test@123, Test@123, First name is required.)</span>
+                <span class="method-start">209790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">218872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">219173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register_validation(Female, Riya, , riya@test.com, Test@123, Test@123, Last name is required.)</span>
+                <span class="method-start">221143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">230250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">230522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register_validation(Male, Amit, Verma, , Test@123, Test@123, Email is required.)</span>
+                <span class="method-start">232115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">240300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">240593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register_validation(Female, Neha, Roy, neha@test.com, , 123.0, Password is required.)</span>
+                <span class="method-start">242299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">250130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">250425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register_validation(Male, Arjun, Das, arjun@test.com, Test@123, , Password is required.)</span>
+                <span class="method-start">252208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">262071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">262360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register_validation(Male, Arjun, Das, arjun@test.com, Test@124, Test@4234234, The password and confirmation password do ...)</span>
+                <span class="method-start">265285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">274128 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.ReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">274432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">vrifyReviewProduct</span>
+                <span class="method-start">276777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">313689 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.WishListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">314047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToWishList</span>
+                <span class="method-start">315909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">331895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">332197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkAddedProduct</span>
+                <span class="method-start">333873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">348014 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tricenties.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeSetUp</span>
+                <span class="method-start">348957 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
