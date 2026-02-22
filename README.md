@@ -25,24 +25,59 @@ The framework automates end-to-end testing of the Demo Web Shop application.
 ```
 DemoWebShop
 │
+├── pom.xml
+├── README.md
+├── testng.xml
+│
 ├── src
 │   ├── main
-│   │   └── java
-│   │       └── utilities
-│   │           ├── BaseClass.java
-│   │           ├── ExcelUtility.java
-│   │           ├── PropertiesUtility.java
-│   │           └── ListnerUtility.java
+│   │   ├── java
+│   │   │   ├── pages                ← Page Object Model classes
+│   │   │   │   ├── CartPage.java
+│   │   │   │   ├── ComputersPage.java
+│   │   │   │   ├── ContactUsPage.java
+│   │   │   │   ├── DashboardPage.java
+│   │   │   │   ├── HomePage.java
+│   │   │   │   ├── LoginPage.java
+│   │   │   │   ├── ProductPage.java
+│   │   │   │   ├── ProfilePage.java
+│   │   │   │   ├── RegisterPage.java
+│   │   │   │   ├── ReviewPage.java
+│   │   │   │   ├── SearchPage.java
+│   │   │   │   └── WishListPage.java
+│   │   │   │
+│   │   │   └── utilities            ← Framework core
+│   │   │       ├── BaseClass.java
+│   │   │       ├── WebDriverUtility.java
+│   │   │       ├── ExcelUtility.java
+│   │   │       ├── PropertiesUtility.java
+│   │   │       ├── JavaUtility.java
+│   │   │       ├── ListenerUtility.java
+│   │   │       └── ExtentManager.java
+│   │   │
+│   │   └── resources                ← 
 │   │
 │   └── test
-│       └── java
-│           └── tests
+│       ├── java
+│       │   └── tests                ← Test Classes
+│       │       ├── CartTest.java
+│       │       ├── ContactUsTest.java
+│       │       ├── LoginTest.java
+│       │       ├── RegisterTest.java
+│       │       ├── ReviewTest.java
+│       │       └── WishListTest.java
+│       │
+│       └── resources                ← Test Data
+│           ├── commondata.properties
+│           └── testCaseData.xlsx
 │
-├── reports
-├── screenshots
-├── docs/images
-├── testng.xml
-└── pom.xml
+├── reports                          ← Extent Reports
+├── screenshots                      ← Failure Screenshots
+├── docs
+│   └── images                       ← README images
+│
+├── target                           ← Maven auto generated
+└── test-output                      ← TestNG reports
 ```
 
 ---
