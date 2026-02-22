@@ -5,11 +5,11 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import object.CartPage;
-import object.HomePage;
-import object.ProductPage;
-import object.SearchPage;
-import object.WishListPage;
+import pages.CartPage;
+import pages.HomePage;
+import pages.ProductPage;
+import pages.SearchPage;
+import pages.WishListPage;
 import utilities.BaseClass;
 @Listeners(utilities.ListnerUtility.class)
 public class CartTest extends BaseClass {

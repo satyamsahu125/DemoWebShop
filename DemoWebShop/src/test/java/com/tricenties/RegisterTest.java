@@ -8,8 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import object.DashboardPage;
-import object.RegisterPage;
+import pages.DashboardPage;
+import pages.RegisterPage;
 import utilities.BaseClass;
 
 @Listeners(utilities.ListnerUtility.class)

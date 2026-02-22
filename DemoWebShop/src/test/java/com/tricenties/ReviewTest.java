@@ -4,10 +4,10 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import object.HomePage;
-import object.ProductPage;
-import object.ReviewPage;
-import object.SearchPage;
+import pages.HomePage;
+import pages.ProductPage;
+import pages.ReviewPage;
+import pages.SearchPage;
 import utilities.BaseClass;
 @Listeners(utilities.ListnerUtility.class)
 public class ReviewTest extends BaseClass{

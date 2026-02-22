@@ -4,8 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import object.DashboardPage;
-import object.LoginPage;
+import pages.DashboardPage;
+import pages.LoginPage;
 import utilities.BaseClass;
 @Listeners(utilities.ListnerUtility.class)
 public class LoginTest extends BaseClass {

@@ -4,10 +4,10 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import object.HomePage;
-import object.ProductPage;
-import object.SearchPage;
-import object.WishListPage;
+import pages.HomePage;
+import pages.ProductPage;
+import pages.SearchPage;
+import pages.WishListPage;
 import utilities.BaseClass;
 
 public class WishListTest extends BaseClass {

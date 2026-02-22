@@ -14,9 +14,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
-import object.DashboardPage;
-import object.HomePage;
-import object.LoginPage;
+import pages.DashboardPage;
+import pages.HomePage;
+import pages.LoginPage;
 
 
 public class BaseClass {

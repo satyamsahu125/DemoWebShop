@@ -10,8 +10,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import object.ContactUsPage;
-import object.HomePage;
+import pages.ContactUsPage;
+import pages.HomePage;
 import utilities.BaseClass;
 @Listeners(utilities.ListnerUtility.class)
 public class ContactUsTest extends BaseClass{
