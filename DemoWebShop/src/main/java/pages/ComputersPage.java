@@ -1,4 +1,4 @@
-package object;
+package pages;
 
 public class ComputersPage {
 
