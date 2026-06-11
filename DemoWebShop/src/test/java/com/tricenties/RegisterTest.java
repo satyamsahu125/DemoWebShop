@@ -40,7 +40,10 @@ public class RegisterTest extends BaseClass {
 		rp.registerForm(gender, firstName, lastName, email, password, confirmPassword);
 
 		String msg = rp.getRegisterSuccessMessage();
-		Assert.assertEquals(msg, "Your registration completed");
+		//for testing changing with already registered email
+		//Assert.assertEquals(msg, "Your registration completed");
+		
+		Assert.assertEquals(msg, "The specified email already exists");
 
 	}
 
