@@ -56,6 +56,11 @@ public class BaseClass {
 	public void openBrowser() throws IOException {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+
+		driver = new ChromeDriver(options);
 		
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
