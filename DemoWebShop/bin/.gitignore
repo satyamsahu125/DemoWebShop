@@ -1,0 +1,29 @@
+# Maven
+target/
+
+# TestNG Reports
+test-output/
+
+# Extent Reports
+ExtentReports/
+Reports/
+
+# Allure
+allure-results/
+allure-report/
+
+# Logs
+logs/
+*.log
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
