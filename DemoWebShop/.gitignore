@@ -1,0 +1,13 @@
+target/
+test-output/
+reports/
+screenshots/
+bin/
+
+.project
+.classpath
+.settings/
+
+.idea/
+*.iml
+.vscode/
